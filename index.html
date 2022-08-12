@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div id="container">
+        
+      <input type="number" id="input1" placeholder="Enter Value" onclick="clr()"/>
+      <div id="optDiv">
+        <div>
+          <label for="options">From:-</label>
+          <select name="options" id="options">
+            <option value="Decimal">Decimal</option>
+            <option value="Hexadecimal">Hexadecimal</option>
+            <option value="Octal">Octal</option>
+            <option value="Binary">Binary</option>
+          </select>
+        </div>
+
+        <div>
+          <label for="options2">To:-</label>
+          <select name="options2" id="options2">
+            <option value="Decimal">Decimal</option>
+            <option value="Hexadecimal">Hexadecimal</option>
+            <option value="Octal">Octal</option>
+            <option value="Binary">Binary</option>
+          </select>
+        </div>
+      </div>
+      <div id="buttons">
+        <button class="btn" id="btn1">Swap</button>
+        <button class="btn" id="btn2">Convert</button>
+      </div>
+      <div id="output">
+        <input type="text" placeholder="Result" id="input2" />
+      </div>
+    </div>
+  </body>
+  <script src="index.js"></script>
+</html>
